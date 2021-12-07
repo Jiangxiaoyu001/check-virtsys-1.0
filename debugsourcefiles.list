@@ -1,0 +1,5 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/local
+%dir /usr/lib/debug/usr/local/bin
+%dir /usr/lib/debug/.dwz

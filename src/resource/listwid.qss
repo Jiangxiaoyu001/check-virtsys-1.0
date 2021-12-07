@@ -1,0 +1,18 @@
+QListWidget{
+    background-color:rgba(255,255,255,100);
+}
+
+
+
+QListWidget::item:hover{
+   background-color: rgb(34,139,34,70);
+}
+
+
+QListWidget::item{
+   color:rgb(255,255,250);
+}
+
+QListWidget:hover{
+
+}
