@@ -20,7 +20,7 @@ QMAKE         = /opt/Qt5.9.9/5.9.9/gcc_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
 MKDIR         = mkdir -p
-COPY          = cp -r -f
+COPY          = cp -f
 COPY_FILE     = cp -f
 COPY_DIR      = cp -f -R
 INSTALL_FILE  = install -m 644 -p
@@ -35,7 +35,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = check-virtsys1.0.0
-DISTDIR = /home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/.tmp/check-virtsys1.0.0
+DISTDIR = /home/jiangxiaoyu/share/git/check-virtsys-1.0/.tmp/check-virtsys1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -Wl,-rpath,/opt/Qt5.9.9/5.9.9/gcc_64/lib
 LIBS          = $(SUBLIBS) -lvirt -ldl -L/opt/Qt5.9.9/5.9.9/gcc_64/lib -lQt5Charts -lQt5Widgets -lQt5Gui -lQt5Xml -lQt5Core -lGL -lpthread 
@@ -711,8 +711,7 @@ distdir: FORCE
 clean: compiler_clean 
 	-$(DEL_FILE) $(OBJECTS)
 	-$(DEL_FILE) *~ core *.core
-	-$(DEL_FILE) $(QMAKE_TARGET)
-
+	-$(DEL_FILE) $(TARGET)
 
 
 distclean: clean 
@@ -869,7 +868,7 @@ moc_check_virtsys_manager.cpp: src/check_virtsys.h \
 		src/check_virtsys_manager.h \
 		moc_predefs.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc
-	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_manager.h -o moc_check_virtsys_manager.cpp
+	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/share/git/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_manager.h -o moc_check_virtsys_manager.cpp
 
 moc_check_virtsys_virtsysdatainfo.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QDebug \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qdebug.h \
@@ -981,7 +980,7 @@ moc_check_virtsys_virtsysdatainfo.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/
 		src/check_virtsys_virtsysdatainfo.h \
 		moc_predefs.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc
-	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_virtsysdatainfo.h -o moc_check_virtsys_virtsysdatainfo.cpp
+	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/share/git/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_virtsysdatainfo.h -o moc_check_virtsys_virtsysdatainfo.cpp
 
 moc_check_virtsys_window.cpp: src/check_virtsys.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject \
@@ -1538,7 +1537,7 @@ moc_check_virtsys_window.cpp: src/check_virtsys.h \
 		src/check_virtsys_window.h \
 		moc_predefs.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc
-	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_window.h -o moc_check_virtsys_window.cpp
+	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/share/git/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_window.h -o moc_check_virtsys_window.cpp
 
 moc_check_virtsys_xml.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobject.h \
@@ -1591,7 +1590,7 @@ moc_check_virtsys_xml.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject \
 		src/check_virtsys_xml.h \
 		moc_predefs.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc
-	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_xml.h -o moc_check_virtsys_xml.cpp
+	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/share/git/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/check_virtsys_xml.h -o moc_check_virtsys_xml.cpp
 
 moc_mainwindow.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QMainWindow \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qmainwindow.h \
@@ -2149,7 +2148,7 @@ moc_mainwindow.cpp: /opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QMainWindow \
 		src/mainwindow.h \
 		moc_predefs.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc
-	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/mainwindow.h -o moc_mainwindow.cpp
+	/opt/Qt5.9.9/5.9.9/gcc_64/bin/moc $(DEFINES) --include ./moc_predefs.h -I/opt/Qt5.9.9/5.9.9/gcc_64/mkspecs/linux-g++ -I/home/jiangxiaoyu/share/git/check-virtsys-1.0 -I/opt/Qt5.9.9/5.9.9/gcc_64/include -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCharts -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtGui -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtXml -I/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore -I/usr/include/c++/8 -I/usr/include/c++/8/x86_64-redhat-linux -I/usr/include/c++/8/backward -I/usr/lib/gcc/x86_64-redhat-linux/8/include -I/usr/local/include -I/usr/include src/mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -5707,7 +5706,11 @@ mainwindow.o: src/mainwindow.cpp src/mainwindow.h \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMutexLocker \
 		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThreadPool \
 		src/check_virtsys_virtsysdatainfo.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QButtonGroup \
+		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QMenuBar \
+		/opt/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o src/mainwindow.cpp
 
 check_virtsys.o: src/check_virtsys.cpp src/check_virtsys.h \
@@ -5780,39 +5783,34 @@ moc_mainwindow.o: moc_mainwindow.cpp
 
 ####### Install
 
-############# coustom user ---------- Jiangxiaoyu 2021-10-18
-
-
 install_target: first FORCE
-	@test -d $(DESTDIR)/usr/bin || mkdir -p $(DESTDIR)/usr/bin
-	$(COPY) $(QMAKE_TARGET) $(DESTDIR)/usr/bin/$(QMAKE_TARGET)
-	
+	@test -d $(INSTALL_ROOT)/usr/bin || mkdir -p $(INSTALL_ROOT)/usr/bin
+	-$(QINSTALL_PROGRAM) $(QMAKE_TARGET) $(INSTALL_ROOT)/usr/bin/$(TARGET)
+	-$(STRIP) $(INSTALL_ROOT)/usr/bin/$(TARGET)
+
 uninstall_target: FORCE
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/bin/$(QMAKE_TARGET)
+	-$(DEL_FILE) $(INSTALL_ROOT)/usr/bin/$(TARGET)
+	-$(DEL_DIR) $(INSTALL_ROOT)/usr/bin/ 
+
 
 install_resource: first FORCE
-	@test -d $(DESTDIR)/usr/share/qss   || mkdir -p $(DESTDIR)/usr/share/qss
-	@test -d $(DESTDIR)/usr/share/icons || mkdir -p $(DESTDIR)/usr/share/icons
-	-$(COPY) /home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/icons  $(DESTDIR)/usr/share/icons/$(QMAKE_TARGET)
-	-$(COPY) /home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/resource/QListWidget.qss $(DESTDIR)/usr/share/qss/QListWidget.qss
-	-$(COPY) /home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/resource/listwid.qss $(DESTDIR)/usr/share/qss/listwid.qss
-
+	@test -d $(INSTALL_ROOT)/usr/share/qss || mkdir -p $(INSTALL_ROOT)/usr/share/qss
+	-$(QINSTALL) /home/jiangxiaoyu/share/git/check-virtsys-1.0/src/resource/QListWidget.qss $(INSTALL_ROOT)/usr/share/qss/QListWidget.qss
 
 uninstall_resource: FORCE
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/share/icons/check-virtsys/*
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/share/qss/QListWidget.qss
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/share/qss/listwid.qss
-	#-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/qss
-	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/icons/check-virtsys
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/qss/QListWidget.qss
+	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/qss/ 
 
 
 install_desktop: first FORCE
-	@test -d $(DESTDIR)/usr/share/applications/ || mkdir -p $(DESTDIR)/usr/share/applications/
-	-$(COPY) /home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/data/check-virtsys.desktop $(DESTDIR)/usr/share/applications/check-virtsys.desktop
-
+	@test -d $(INSTALL_ROOT)/usr/share/applications/ || mkdir -p $(INSTALL_ROOT)/usr/share/applications/
+	-$(QINSTALL_PROGRAM) /home/jiangxiaoyu/share/git/check-virtsys-1.0/data/check-virtsys.desktop $(INSTALL_ROOT)/usr/share/applications/check-virtsys.desktop
+	-strip $(INSTALL_ROOT)/usr/share/applications/check-virtsys.desktop
 
 uninstall_desktop: FORCE
-	-$(DEL_FILE) $(INSTALL_ROOT)/usr/share/applications/check-virtsys.desktop
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/applications/check-virtsys.desktop
+	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/applications/ 
+
 
 install: install_target install_resource install_desktop  FORCE
 
