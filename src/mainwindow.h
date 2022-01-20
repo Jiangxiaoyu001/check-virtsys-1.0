@@ -3,30 +3,25 @@
 
 #include <QMainWindow>
 #include <QStackedWidget>
-#include "check_virtsys_window.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace BASEWINDOW {
+    class check_virtsys_basewindow;
+}
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class MainWindow
 {
-    Q_OBJECT
+    //Q_OBJECT
 
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private:
-    Ui::MainWindow *ui;
-    QStackedWidget *m_staWidget;
-    Check_Virtsys_Window * window;
+
+    BASEWINDOW::check_virtsys_basewindow * _baseWidPrt_;
 private:
     void MainWindowInit();
-    void mousePressEvent(QMouseEvent *event){
-        qDebug()<<"----mainWidget mousePressEvent--------"<<endl;
-        event->ignore();
-//        return QWidget::mouseMoveEvent(event);
-    }
+
 };
 #endif // MAINWINDOW_H
