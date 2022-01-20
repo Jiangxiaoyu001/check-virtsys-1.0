@@ -24,6 +24,7 @@ void Check_Virtsys_VirtSysDomWindow::check_virtsys_domWinInit()
 
     QWidget * parentWin=this->parentWidget();
     QSize  m_size(parentWin->width(),parentWin->height());
+    qDebug()<<"m_size:"<<m_size;
     QPoint m_point(parentWin->pos().x(),parentWin->pos().y());
     this->setGeometry(m_point.x(),m_point.y(),m_size.width(),m_size.height());
 //    this->setGeometry(10,0,this->width(),this->height());

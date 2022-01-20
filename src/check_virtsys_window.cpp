@@ -22,6 +22,7 @@ Check_Virtsys_Window::Check_Virtsys_Window(QWidget *parent):
 {
    // m_listWidget->setAttribute(Qt::WA_TransparentForMouseEvents,false);
     this->setGeometry(parent->x(),parent->y(),parent->width(),parent->height());
+
     Check_Virtsys_WindowInit();
     Check_Virtsys_AddListWinItem();
 
@@ -127,10 +128,10 @@ void Check_Virtsys_Window::Check_Virtsys_AddListWinItem()
     m_listWinItem=new QListWidgetItem(m_listWidget,QListWidgetItem::Type);
     m_listWinItem->setText(tr("虚拟网络信息")); //virNetWorkInfo
     m_listWinItem->setSizeHint(QSize(45,50));
-
-//    m_listWinItem=new QListWidgetItem(m_listWidget,QListWidgetItem::Type);
-//    m_listWinItem->setText(tr("详细信息")); //detailedInfo
-//    m_listWinItem->setSizeHint(QSize(45,50));
+    
+    m_listWinItem=new QListWidgetItem(m_listWidget,QListWidgetItem::Type);
+    m_listWinItem->setText(tr("详细信息")); //detailedInfo
+    m_listWinItem->setSizeHint(QSize(45,50));
 
     m_listWinItem=new QListWidgetItem(m_listWidget,QListWidgetItem::Type);
     m_listWinItem->setText(tr("关于")); //about
@@ -333,20 +334,20 @@ void Check_Virtsys_Window::check_virtsys_SwitchPages()
     switch(curr_row){
     case 0:
         m_staWidget->setCurrentWidget(genWidget);
-        break;
-    case 1:
+   break;
+   case 1:
         virManager->check_virtsys_dataManagerCenter(VIRDOMAIN);
         m_staWidget->setCurrentWidget(domWidget);
     break;
     case 2:
         virManager->check_virtsys_dataManagerCenter(VIRNETWORK);
         m_staWidget->setCurrentWidget(netWorkWidget);
-    break;
-//    case 3:
-//         virManager->check_virtsys_dataManagerCenter(VIRDOMAIN);
-//         m_staWidget->setCurrentWidget(detailWidget);
-//    break;
+    	break;
     case 3:
+         virManager->check_virtsys_dataManagerCenter(VIRDOMAIN);
+         m_staWidget->setCurrentWidget(detailWidget);
+    break;
+    case 4:
         aboutDialog->check_virtsys_showAboutDialog();
         m_staWidget->setCurrentWidget(aboutDialog);
     break;
