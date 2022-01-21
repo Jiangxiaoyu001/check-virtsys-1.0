@@ -36,6 +36,8 @@ protected:
     void mousePressEvent(QMouseEvent *event) override;
     void mouseReleaseEvent(QMouseEvent *event) override;
     void mouseDoubleClickEvent(QMouseEvent *event) override;
+    /*platform :windows*/
+    //bool nativeEvent(const QByteArray &eventType, void *message, long *result)override;
 private:
     QWidget * frontWid;
       /* define basewin point*/
@@ -133,7 +135,7 @@ check_virtsys_basewindow::baseWindow::~baseWindow()
 void check_virtsys_basewindow::baseWindow::basewin_init(QWidget *wid)
 {
     QRect rect(0,0,1920,1080);
-    QRect sta_rect(0,64,1900,1016);
+    QRect sta_rect(0,64,1920,1016);
     wid->setGeometry(rect);
     m_staWid->setGeometry(sta_rect);
     /* remove window frame */
@@ -143,8 +145,16 @@ void check_virtsys_basewindow::baseWindow::basewin_init(QWidget *wid)
 //                        |Qt::FramelessWindowHint
 //                        |Qt::WindowMinMaxButtonsHint);
 
+
+    QPushButton * maxBtn=new QPushButton(this);
+    QPushButton * minBtn=new QPushButton(this);
+    QPushButton * closeBtn=new QPushButton(this);
+
+    QGridLayout *griLay=new QGridLayout(this);
+    griLay->setGeometry(rect);
+    griLay->addWidget(maxBtn,0,0,0,0);
     QPalette m_pal;
-//    this->setCentralWidget(m_staWidget);
+    //this->setCentralWidget(this);
     this->setWindowTitle("check virtsys");
    // this->setFixedSize(900,900);
 //setAttribute(Qt::WA_TransparentForMouseEvents,false);

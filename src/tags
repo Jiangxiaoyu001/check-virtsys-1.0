@@ -1,0 +1,419 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	../Makefile	/^AR            = ar cqs$/;"	m
+BASEWINDOW	../src/check_virtsys_basewindow.h	/^namespace  BASEWINDOW{$/;"	n
+BASEWINDOW	../src/mainwindow.h	/^namespace BASEWINDOW {$/;"	n
+CC	../Makefile	/^CC            = gcc$/;"	m
+CFLAGS	../Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CHECK_VIRTSTS_GENERNAL	../src/check_virtsts_genernal.h	/^    CHECK_VIRTSTS_GENERNAL(QWidget * parent=nullptr):QWidget(parent),$/;"	f	class:CHECK_VIRTSTS_GENERNAL
+CHECK_VIRTSTS_GENERNAL	../src/check_virtsts_genernal.h	/^class CHECK_VIRTSTS_GENERNAL:public QWidget$/;"	c
+CHECK_VIRTSTS_GENERNALWINDOW	../src/check_virtsts_genernalwindow.cpp	/^CHECK_VIRTSTS_GENERNALWINDOW::CHECK_VIRTSTS_GENERNALWINDOW(QWidget *parent):$/;"	f	class:CHECK_VIRTSTS_GENERNALWINDOW
+CHECK_VIRTSTS_GENERNALWINDOW	../src/check_virtsts_genernalwindow.h	/^class CHECK_VIRTSTS_GENERNALWINDOW$/;"	c
+CHECK_VIRTSTS_GENERNALWINDOW_H	../src/check_virtsts_genernalwindow.h	2;"	d
+CHECK_VIRTSTS_GENERNAL_H	../src/check_virtsts_genernal.h	2;"	d
+CHECK_VIRTSYS	../src/check_virtsys.h	/^    explicit CHECK_VIRTSYS(){};$/;"	f	class:CHECK_VIRTSYS
+CHECK_VIRTSYS	../src/check_virtsys.h	/^class CHECK_VIRTSYS$/;"	c
+CHECK_VIRTSYS_ABOUTDIALOG	../src/check_virtsys_aboutdialog.cpp	/^CHECK_VIRTSYS_ABOUTDIALOG::CHECK_VIRTSYS_ABOUTDIALOG(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_ABOUTDIALOG
+CHECK_VIRTSYS_ABOUTDIALOG	../src/check_virtsys_aboutdialog.h	/^class CHECK_VIRTSYS_ABOUTDIALOG:public QWidget$/;"	c
+CHECK_VIRTSYS_ABOUTDIALOG_H	../src/check_virtsys_aboutdialog.h	2;"	d
+CHECK_VIRTSYS_CONNECT_INFO	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct CHECK_VIRTSYS_CONNECT_INFO{ \/* virt connect *\/$/;"	s	namespace:Check_Virtsys_Libvirt_API
+CHECK_VIRTSYS_DETAILEDWINDOW	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::CHECK_VIRTSYS_DETAILEDWINDOW(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW
+CHECK_VIRTSYS_DETAILEDWINDOW	../src/check_virtsys_detailedwindow.h	/^class CHECK_VIRTSYS_DETAILEDWINDOW:public QWidget$/;"	c
+CHECK_VIRTSYS_DETAILEDWINDOW_H	../src/check_virtsys_detailedwindow.h	2;"	d
+CHECK_VIRTSYS_H	../src/check_virtsys.h	2;"	d
+CHECK_VIRTSYS_MANAGER	../src/check_virtsys_manager.cpp	/^CHECK_VIRTSYS_MANAGER::CHECK_VIRTSYS_MANAGER():$/;"	f	class:CHECK_VIRTSYS_MANAGER
+CHECK_VIRTSYS_MANAGER	../src/check_virtsys_manager.h	/^class CHECK_VIRTSYS_MANAGER:public QObject,public CHECK_VIRTSYS$/;"	c
+CHECK_VIRTSYS_MANAGER_H	../src/check_virtsys_manager.h	2;"	d
+CHECK_VIRTSYS_NRCPUUSAGEWINDOW	../src/check_virtsys_nrcpuusagewindow.cpp	/^CHECK_VIRTSYS_NRCPUUSAGEWINDOW::CHECK_VIRTSYS_NRCPUUSAGEWINDOW(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_NRCPUUSAGEWINDOW
+CHECK_VIRTSYS_NRCPUUSAGEWINDOW	../src/check_virtsys_nrcpuusagewindow.h	/^class CHECK_VIRTSYS_NRCPUUSAGEWINDOW$/;"	c
+CHECK_VIRTSYS_NRCPUUSAGEWINDOW_H	../src/check_virtsys_nrcpuusagewindow.h	2;"	d
+CHECK_VIRTSYS_THREAD	../src/check_virtsys_thread.cpp	/^CHECK_VIRTSYS_THREAD::CHECK_VIRTSYS_THREAD():$/;"	f	class:CHECK_VIRTSYS_THREAD
+CHECK_VIRTSYS_THREAD	../src/check_virtsys_thread.h	/^class CHECK_VIRTSYS_THREAD:public QThread$/;"	c
+CHECK_VIRTSYS_THREAD_H	../src/check_virtsys_thread.h	2;"	d
+CHECK_VIRTSYS_VIRDOMAIN_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^CHECK_VIRTSYS_VIRDOMAIN_INFO()$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+CHECK_VIRTSYS_VIRDOMAIN_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^CHECK_VIRTSYS_VIRDOMAIN_INFO(const virDomainInfo info_dom,$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+CHECK_VIRTSYS_VIRDOMAIN_INFO	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct CHECK_VIRTSYS_VIRDOMAIN_INFO{ \/* virt domain*\/$/;"	s	namespace:Check_Virtsys_Libvirt_API
+CHECK_VIRTSYS_VIRNETWORK_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^CHECK_VIRTSYS_VIRNETWORK_INFO(unsigned int id_dom,$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+CHECK_VIRTSYS_VIRNETWORK_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^CHECK_VIRTSYS_VIRNETWORK_INFO::CHECK_VIRTSYS_VIRNETWORK_INFO()$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+CHECK_VIRTSYS_VIRNETWORK_INFO	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct CHECK_VIRTSYS_VIRNETWORK_INFO{ \/* virt networt *\/$/;"	s	namespace:Check_Virtsys_Libvirt_API
+CHECK_VIRTSYS_VIRNODE_INFO	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct CHECK_VIRTSYS_VIRNODE_INFO{ \/* virt Node*\/$/;"	s	namespace:Check_Virtsys_Libvirt_API
+CHECK_VIRTSYS_VIRSTORAGEVOL_INFO	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct CHECK_VIRTSYS_VIRSTORAGEVOL_INFO{ \/* virt STORAGEVOL *\/$/;"	s	namespace:Check_Virtsys_Libvirt_API
+CHECK_VIRTSYS_VIRTSYSDOMINFO_H	../src/check_virtsys_virtsysdomainwindow.h	2;"	d
+CHECK_VIRTSYS_VIRTSYSNETWORKINFO_H	../src/check_virtsys_virtsysnetworkwindow.h	2;"	d
+CHECK_VIRTSYS_WINDOW_H	../src/check_virtsys_window.h	2;"	d
+CHECK_VIRTSYS_XML	../src/check_virtsys_xml.cpp	/^CHECK_VIRTSYS_XML::CHECK_VIRTSYS_XML()$/;"	f	class:CHECK_VIRTSYS_XML
+CHECK_VIRTSYS_XML	../src/check_virtsys_xml.h	/^class CHECK_VIRTSYS_XML :public QObject$/;"	c
+CHECK_VIRTSYS_XML_H	../src/check_virtsys_xml.h	2;"	d
+CHK_DIR_EXISTS	../Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	../Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	../Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	../Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	../Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	../Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	../Makefile	/^CXXFLAGS      = -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+Check_Virtsys_AddListWinItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_AddListWinItem()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_InsertListWinItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_InsertListWinItem(int row)$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_Libvirt_API	../src/check_virtsys_virtsysdatainfo.h	/^namespace  Check_Virtsys_Libvirt_API{$/;"	n
+Check_Virtsys_RemoveListWinItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_RemoveListWinItem()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_VirtSysDataInfo	../src/check_virtsys_virtsysdatainfo.cpp	/^Check_Virtsys_VirtSysDataInfo::Check_Virtsys_VirtSysDataInfo()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+Check_Virtsys_VirtSysDataInfo	../src/check_virtsys_virtsysdatainfo.h	/^class Check_Virtsys_VirtSysDataInfo:public QObject$/;"	c
+Check_Virtsys_VirtSysDatanfo_H	../src/check_virtsys_virtsysdatainfo.h	2;"	d
+Check_Virtsys_VirtSysDomWindow	../src/check_virtsys_virtsysdomainwindow.cpp	/^Check_Virtsys_VirtSysDomWindow::Check_Virtsys_VirtSysDomWindow(QWidget *parent):$/;"	f	class:Check_Virtsys_VirtSysDomWindow
+Check_Virtsys_VirtSysDomWindow	../src/check_virtsys_virtsysdomainwindow.h	/^class Check_Virtsys_VirtSysDomWindow:public QTableWidget$/;"	c
+Check_Virtsys_Window	../src/check_virtsys_window.cpp	/^Check_Virtsys_Window::Check_Virtsys_Window(QWidget *parent):$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_Window	../src/check_virtsys_window.h	/^class Check_Virtsys_Window:public QWidget$/;"	c
+Check_Virtsys_WindowInit	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_WindowInit()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_changedListItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_changedListItem(){$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_loadStyleSheet	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_loadStyleSheet()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_startTimer	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_startTimer()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_stopTimer	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_stopTimer()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_tabWidDomain_updataItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_tabWidDomain_updataItem()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_tabWidNetWork_updataItem	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_tabWidNetWork_updataItem()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_updataChart_cpuUsage	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_updataChart_cpuUsage()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_updataChart_netWorkUsage	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_updataChart_netWorkUsage()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_updataWidget	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::Check_Virtsys_updataWidget()$/;"	f	class:Check_Virtsys_Window
+Check_Virtsys_virtSysNetWorkWindow	../src/check_virtsys_virtsysnetworkwindow.cpp	/^Check_Virtsys_virtSysNetWorkWindow::Check_Virtsys_virtSysNetWorkWindow(QWidget * parent):$/;"	f	class:Check_Virtsys_virtSysNetWorkWindow
+Check_Virtsys_virtSysNetWorkWindow	../src/check_virtsys_virtsysnetworkwindow.h	/^class Check_Virtsys_virtSysNetWorkWindow:public QTableWidget$/;"	c
+DEFINES	../Makefile	/^DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_CHARTS_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	../Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	../Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	../Makefile	/^DESTDIR       = $/;"	m
+DIST	../Makefile	/^DIST          = src\/dealxml.py \\$/;"	m
+DISTDIR	../Makefile	/^DISTDIR = \/home\/jiangxiaoyu\/rpmbuild\/SOURCES\/check-virtsys-1.0\/.tmp\/check-virtsys1.0.0$/;"	m
+DISTNAME	../Makefile	/^DISTNAME      = check-virtsys1.0.0$/;"	m
+ElementTree	../src/virsysInfo.py	/^from xml.etree import ElementTree$/;"	i
+GO_CGO_EXPORT_PROLOGUE_H	../src/test.h	11;"	d
+GO_CGO_PROLOGUE_H	../src/test.h	31;"	d
+GoChan	../src/test.h	/^typedef void *GoChan;$/;"	t
+GoComplex128	../src/test.h	/^typedef double _Complex GoComplex128;$/;"	t
+GoComplex64	../src/test.h	/^typedef float _Complex GoComplex64;$/;"	t
+GoFloat32	../src/test.h	/^typedef float GoFloat32;$/;"	t
+GoFloat64	../src/test.h	/^typedef double GoFloat64;$/;"	t
+GoInt	../src/test.h	/^typedef GoInt64 GoInt;$/;"	t
+GoInt16	../src/test.h	/^typedef short GoInt16;$/;"	t
+GoInt32	../src/test.h	/^typedef int GoInt32;$/;"	t
+GoInt64	../src/test.h	/^typedef long long GoInt64;$/;"	t
+GoInt8	../src/test.h	/^typedef signed char GoInt8;$/;"	t
+GoInterface	../src/test.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	t	typeref:struct:__anon2
+GoMap	../src/test.h	/^typedef void *GoMap;$/;"	t
+GoSlice	../src/test.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	t	typeref:struct:__anon3
+GoString	../src/test.h	/^typedef _GoString_ GoString;$/;"	t
+GoUint	../src/test.h	/^typedef GoUint64 GoUint;$/;"	t
+GoUint16	../src/test.h	/^typedef unsigned short GoUint16;$/;"	t
+GoUint32	../src/test.h	/^typedef unsigned int GoUint32;$/;"	t
+GoUint64	../src/test.h	/^typedef unsigned long long GoUint64;$/;"	t
+GoUint8	../src/test.h	/^typedef unsigned char GoUint8;$/;"	t
+GoUintptr	../src/test.h	/^typedef __SIZE_TYPE__ GoUintptr;$/;"	t
+INCPATH	../Makefile	/^INCPATH       = -I. -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include\/QtCharts -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include\/QtWidgets -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include\/QtGui -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include\/QtXml -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/include\/QtCore -I. -isystem \/usr\/include\/libdrm -I. -I\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/mkspecs\/linux-g++$/;"	m
+INSTALL_DIR	../Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	../Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	../Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	../Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/lib$/;"	m
+LIBS	../Makefile	/^LIBS          = $(SUBLIBS) -lvirt -ldl -L\/opt\/Qt5.9.9\/5.9.9\/gcc_64\/lib -lQt5Charts -lQt5Widgets -lQt5Gui -lQt5Xml -lQt5Core -lGL -lpthread $/;"	m
+LIBSOCID_PATH	../src/check_virtsts_genernal.h	11;"	d
+LINK	../Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	../src/mainwindow.h	2;"	d
+MAKEFILE	../Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	../Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	../Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	../src/mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent):$/;"	f	class:MainWindow
+MainWindow	../src/mainwindow.h	/^class MainWindow$/;"	c
+MainWindowInit	../src/mainwindow.cpp	/^void MainWindow::MainWindowInit()$/;"	f	class:MainWindow
+OBJECTS	../Makefile	/^OBJECTS       = check_virtsts_genernalwindow.o \\$/;"	m
+OBJECTS_DIR	../Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QINSTALL	../Makefile	/^QINSTALL      = \/opt\/Qt5.9.9\/5.9.9\/gcc_64\/bin\/qmake -install qinstall$/;"	m
+QINSTALL_PROGRAM	../Makefile	/^QINSTALL_PROGRAM = \/opt\/Qt5.9.9\/5.9.9\/gcc_64\/bin\/qmake -install qinstall -exe$/;"	m
+QMAKE	../Makefile	/^QMAKE         = \/opt\/Qt5.9.9\/5.9.9\/gcc_64\/bin\/qmake$/;"	m
+QMAKE_TARGET	../Makefile	/^QMAKE_TARGET  = check-virtsys$/;"	m
+RANLIB	../Makefile	/^RANLIB        = $/;"	m
+SED	../Makefile	/^SED           = sed$/;"	m
+SOURCES	../Makefile	/^SOURCES       = src\/check_virtsts_genernalwindow.cpp \\$/;"	m
+STRIP	../Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	../Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	../Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	../Makefile	/^TARGET        = check-virtsys$/;"	m
+THREAD_IF	../src/check_virtsys.h	/^    THREAD_IF$/;"	e	enum:_interface_
+UINT16	../src/check_virtsys_basewindow.h	26;"	d
+UINT32	../src/check_virtsys_basewindow.h	27;"	d
+UINT64	../src/check_virtsys_basewindow.h	28;"	d
+VIRCONCECT	../src/check_virtsys_virtsysdatainfo.h	/^    VIRCONCECT,$/;"	e	enum:_VirtSysDataType_
+VIRCONNECT_IF	../src/check_virtsys.h	/^    VIRCONNECT_IF,$/;"	e	enum:_interface_
+VIRCONNECT_TYPE	../src/check_virtsys.h	/^    VIRCONNECT_TYPE,$/;"	e	enum:_VIRDATATYPE_
+VIRDATATYPE	../src/check_virtsys.h	/^}VIRDATATYPE;$/;"	t	typeref:enum:_VIRDATATYPE_
+VIRDATA_IF	../src/check_virtsys.h	/^    VIRDATA_IF,$/;"	e	enum:_interface_
+VIRDOMAIN	../src/check_virtsys_virtsysdatainfo.h	/^    VIRDOMAIN,$/;"	e	enum:_VirtSysDataType_
+VIRDOMAIN_IF	../src/check_virtsys.h	/^    VIRDOMAIN_IF,$/;"	e	enum:_interface_
+VIRDOMAIN_TYPE	../src/check_virtsys.h	/^    VIRDOMAIN_TYPE,$/;"	e	enum:_VIRDATATYPE_
+VIRNETWORK	../src/check_virtsys_virtsysdatainfo.h	/^    VIRNETWORK,$/;"	e	enum:_VirtSysDataType_
+VIRNETWORK_IF	../src/check_virtsys.h	/^    VIRNETWORK_IF,$/;"	e	enum:_interface_
+VIRNETWORK_TYPE	../src/check_virtsys.h	/^    VIRNETWORK_TYPE,$/;"	e	enum:_VIRDATATYPE_
+VIRNODE	../src/check_virtsys_virtsysdatainfo.h	/^    VIRNODE,$/;"	e	enum:_VirtSysDataType_
+VIRNODE_IF	../src/check_virtsys.h	/^    VIRNODE_IF,$/;"	e	enum:_interface_
+VIRNODE_TYPE	../src/check_virtsys.h	/^    VIRNODE_TYPE,$/;"	e	enum:_VIRDATATYPE_
+VIRSTORAGEVOL	../src/check_virtsys_virtsysdatainfo.h	/^    VIRSTORAGEVOL$/;"	e	enum:_VirtSysDataType_
+VIRSTORAGEVOL_IF	../src/check_virtsys.h	/^    VIRSTORAGEVOL_IF,$/;"	e	enum:_interface_
+VIRSTORAGEVOL_TYPR	../src/check_virtsys.h	/^    VIRSTORAGEVOL_TYPR,$/;"	e	enum:_VIRDATATYPE_
+XML_IF	../src/check_virtsys.h	/^    XML_IF,$/;"	e	enum:_interface_
+_CG_	../src/check_virtsys_manager.h	/^    class _CG_{$/;"	c	class:CHECK_VIRTSYS_MANAGER
+_GoString_	../src/test.h	/^typedef struct { const char *p; ptrdiff_t n; } _GoString_;$/;"	t	typeref:struct:__anon1
+_INTERFACE_TYPE_	../src/check_virtsys.h	/^}_INTERFACE_TYPE_;$/;"	t	typeref:enum:_interface_
+_VIRDATATYPE_	../src/check_virtsys.h	/^typedef enum _VIRDATATYPE_{$/;"	g
+_VIRSYSDATA_	../src/check_virtsys_virtsysdatainfo.h	/^    struct _VIRSYSDATA_{$/;"	s	class:Check_Virtsys_VirtSysDataInfo
+_VirtSysDataType_	../src/check_virtsys_virtsysdatainfo.h	/^typedef enum _VirtSysDataType_{$/;"	g
+__CHECK_VIRTSYS_BASEWINDOW__	../src/check_virtsys_basewindow.h	20;"	d
+_baseStaWid_	../src/check_virtsys_basewindow.cpp	/^QStackedWidget *check_virtsys_basewindow::_baseStaWid_()$/;"	f	class:check_virtsys_basewindow
+_baseStaWid_	../src/check_virtsys_basewindow.cpp	/^QStackedWidget *check_virtsys_basewindow::baseWindow::_baseStaWid_()$/;"	f	class:check_virtsys_basewindow::baseWindow
+_baseWidPrt_	../src/mainwindow.h	/^    BASEWINDOW::check_virtsys_basewindow * _baseWidPrt_;$/;"	m	class:MainWindow
+_baseWinPimpl_	../src/check_virtsys_basewindow.cpp	/^check_virtsys_basewindow::baseWindow *check_virtsys_basewindow::_baseWinPimpl_()$/;"	f	class:check_virtsys_basewindow
+_baseWin_	../src/check_virtsys_basewindow.cpp	/^QWidget *check_virtsys_basewindow::baseWindow::_baseWin_()$/;"	f	class:check_virtsys_basewindow::baseWindow
+_checkVirSysConnectInfo_	../src/check_virtsys_virtsysdatainfo.h	/^    }_checkVirSysConnectInfo_;$/;"	t	namespace:Check_Virtsys_Libvirt_API	typeref:struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_CONNECT_INFO
+_checkVirSysVirDomainInfo_	../src/check_virtsys_virtsysdatainfo.h	/^    }_checkVirSysVirDomainInfo_;$/;"	t	namespace:Check_Virtsys_Libvirt_API	typeref:struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+_checkVirSysVirNetWorkInfo_	../src/check_virtsys_virtsysdatainfo.h	/^    }_checkVirSysVirNetWorkInfo_;$/;"	t	namespace:Check_Virtsys_Libvirt_API	typeref:struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+_checkVirSysVirNodeInfo_	../src/check_virtsys_virtsysdatainfo.h	/^    }_checkVirSysVirNodeInfo_;$/;"	t	namespace:Check_Virtsys_Libvirt_API	typeref:struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNODE_INFO
+_checkVirSysVirStorageVolInfo_	../src/check_virtsys_virtsysdatainfo.h	/^    }_checkVirSysVirStorageVolInfo_;$/;"	t	namespace:Check_Virtsys_Libvirt_API	typeref:struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRSTORAGEVOL_INFO
+_check_for_64_bit_pointer_matching_GoInt	../src/test.h	/^typedef char _check_for_64_bit_pointer_matching_GoInt[sizeof(void*)==64\/8 ? 1:-1];$/;"	t
+_check_virtsys_updataDetailWid_	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::_check_virtsys_updataDetailWid_(int row)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+_interface_	../src/check_virtsys.h	/^typedef enum _interface_{$/;"	g
+_listStyle_	../src/check_virtsys_detailedwindow.cpp	/^_listStyle_(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+_listStyle_	../src/check_virtsys_detailedwindow.h	/^    class _listStyle_:public QObject{$/;"	c	class:CHECK_VIRTSYS_DETAILEDWINDOW
+_listWid_	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::_listWid_(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+_listWid_	../src/check_virtsys_detailedwindow.h	/^    class _listWid_:public QListWidget{$/;"	c	class:CHECK_VIRTSYS_DETAILEDWINDOW
+_m_treeView_	../src/check_virtsys_detailedwindow.h	/^        QTreeView *  _m_treeView_;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+_treeWid_	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_::_treeWid_(QWidget *parent):$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+_treeWid_	../src/check_virtsys_detailedwindow.h	/^    class _treeWid_:public QTreeView{$/;"	c	class:CHECK_VIRTSYS_DETAILEDWINDOW
+_virData_	../src/check_virtsys_virtsysdatainfo.h	/^    typedef struct _VIRSYSDATA_ _virData_;$/;"	t	class:Check_Virtsys_VirtSysDataInfo	typeref:struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+aboutDialog	../src/check_virtsys_window.h	/^    CHECK_VIRTSYS_ABOUTDIALOG * aboutDialog;$/;"	m	class:Check_Virtsys_Window
+add_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::add_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow::baseWindow
+b	../src/check_virtsys_manager.h	/^    int b;$/;"	m	class:CHECK_VIRTSYS_MANAGER
+baseWinPimpl	../src/check_virtsys_basewindow.h	/^         baseWindow * baseWinPimpl;$/;"	m	class:BASEWINDOW::check_virtsys_basewindow
+baseWindow	../src/check_virtsys_basewindow.cpp	/^check_virtsys_basewindow::baseWindow::baseWindow(QWidget *parent):$/;"	f	class:check_virtsys_basewindow::baseWindow
+baseWindow	../src/check_virtsys_basewindow.cpp	/^class check_virtsys_basewindow::baseWindow:public QWidget{$/;"	c	class:check_virtsys_basewindow	file:
+basewin_init	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::basewin_init(QWidget *wid)$/;"	f	class:check_virtsys_basewindow::baseWindow
+btn	../src/check_virtsys_detailedwindow.h	/^        QPushButton * btn;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+cap	../src/test.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon3
+cheVirXML	../src/check_virtsys_manager.h	/^     CHECK_VIRTSYS_XML * cheVirXML;$/;"	m	class:CHECK_VIRTSYS_MANAGER
+chech_virtsys_updataGenernalWin	../src/check_virtsts_genernalwindow.cpp	/^void CHECK_VIRTSTS_GENERNALWINDOW::chech_virtsys_updataGenernalWin()$/;"	f	class:CHECK_VIRTSTS_GENERNALWINDOW
+check_objcls_isExist	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::check_objcls_isExist()$/;"	f	class:check_virtsys_basewindow
+check_virt_genernalWidInit	../src/check_virtsts_genernal.h	/^    void check_virt_genernalWidInit(){$/;"	f	class:CHECK_VIRTSTS_GENERNAL
+check_virt_genernalWidUpdate	../src/check_virtsts_genernal.h	/^    void check_virt_genernalWidUpdate(){$/;"	f	class:CHECK_VIRTSTS_GENERNAL
+check_virt_parseXml	../src/check_virtsys_xml.cpp	/^void CHECK_VIRTSYS_XML::check_virt_parseXml(const char * &xml)$/;"	f	class:CHECK_VIRTSYS_XML
+check_virt_parseXml_NetWorkInfo	../src/check_virtsys_xml.cpp	/^void CHECK_VIRTSYS_XML::check_virt_parseXml_NetWorkInfo( const QString netWorkXml,$/;"	f	class:CHECK_VIRTSYS_XML
+check_virtsys_Debug_Msg	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_Debug_Msg()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_Libvirt_API_Init	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_Libvirt_API_Init()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_SwitchPages	../src/check_virtsys_manager.cpp	/^void CHECK_VIRTSYS_MANAGER::check_virtsys_SwitchPages()$/;"	f	class:CHECK_VIRTSYS_MANAGER
+check_virtsys_SwitchPages	../src/check_virtsys_window.cpp	/^void Check_Virtsys_Window::check_virtsys_SwitchPages()$/;"	f	class:Check_Virtsys_Window
+check_virtsys_VirtDataControlCenter	../src/check_virtsys_virtsysdatainfo.h	/^    template<class T> void check_virtsys_VirtDataControlCenter(T type){$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_aboutDialogInit	../src/check_virtsys_aboutdialog.cpp	/^void CHECK_VIRTSYS_ABOUTDIALOG::check_virtsys_aboutDialogInit()$/;"	f	class:CHECK_VIRTSYS_ABOUTDIALOG
+check_virtsys_basewindow	../src/check_virtsys_basewindow.cpp	/^check_virtsys_basewindow::check_virtsys_basewindow():$/;"	f	class:check_virtsys_basewindow
+check_virtsys_basewindow	../src/check_virtsys_basewindow.h	/^    class check_virtsys_basewindow{$/;"	c	namespace:BASEWINDOW
+check_virtsys_dataDealCenter	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_dataDealCenter()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_dataManagerCenter	../src/check_virtsys_manager.cpp	/^void CHECK_VIRTSYS_MANAGER::check_virtsys_dataManagerCenter(virtSysDataType type)$/;"	f	class:CHECK_VIRTSYS_MANAGER
+check_virtsys_dealDataType	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_dealDataType(virtSysDataType dataType)$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_detailWinInit	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::check_virtsys_detailWinInit()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+check_virtsys_detailWinInit	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::check_virtsys_detailWinInit()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW
+check_virtsys_domWinInit	../src/check_virtsys_virtsysdomainwindow.cpp	/^void Check_Virtsys_VirtSysDomWindow::check_virtsys_domWinInit()$/;"	f	class:Check_Virtsys_VirtSysDomWindow
+check_virtsys_factoryIf	../src/check_virtsys_manager.h	/^        void * check_virtsys_factoryIf(_INTERFACE_TYPE_ type){$/;"	f	class:CHECK_VIRTSYS_MANAGER
+check_virtsys_free_DomainData	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_free_DomainData()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_free_NetWorkData	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_free_NetWorkData()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_free_virData	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_free_virData()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_free_virDomain	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_free_virDomain()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_free_virNetWork	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_free_virNetWork()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_genernalWinInit	../src/check_virtsts_genernalwindow.cpp	/^void CHECK_VIRTSTS_GENERNALWINDOW::check_virtsys_genernalWinInit()$/;"	f	class:CHECK_VIRTSTS_GENERNALWINDOW
+check_virtsys_getDataInfoIf	../src/check_virtsys_thread.cpp	/^Check_Virtsys_VirtSysDataInfo *CHECK_VIRTSYS_THREAD::check_virtsys_getDataInfoIf()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_getDomainInfo	../src/check_virtsys_thread.cpp	/^CHECK_VIRTSYS_THREAD::check_virtsys_getDomainInfo()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_getNetWorkInfo	../src/check_virtsys_thread.cpp	/^CHECK_VIRTSYS_THREAD::check_virtsys_getNetWorkInfo()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_getThreadObj	../src/check_virtsys_thread.cpp	/^QThread *&CHECK_VIRTSYS_THREAD::check_virtsys_getThreadObj()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_getVistsysTotol	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_getVistsysTotol()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_getWindow	../src/check_virtsys_window.h	/^    QWidget *& check_virtsys_getWindow(){ return m_MainWidget;}$/;"	f	class:Check_Virtsys_Window
+check_virtsys_getXml	../src/check_virtsys_detailedwindow.h	/^        QString & check_virtsys_getXml(){$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+check_virtsys_listWidCreate	../src/check_virtsys_detailedwindow.cpp	/^check_virtsys_listWidCreate(_listWid_ * obj)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_listWidDestroy	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_::check_virtsys_listWidDestroy()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_listWidSize	../src/check_virtsys_detailedwindow.cpp	/^QSize CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_::check_virtsys_listWidSize()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_loadQss	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_::check_virtsys_loadQss()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_managerObj	../src/check_virtsys_manager.h	/^    static CHECK_VIRTSYS_MANAGER * check_virtsys_managerObj(){$/;"	f	class:CHECK_VIRTSYS_MANAGER
+check_virtsys_mousePonit	../src/check_virtsys_detailedwindow.cpp	/^QPoint CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_::check_virtsys_mousePonit()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_moveToThread	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_moveToThread(QObject *& obj)$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_netWorkWidInit	../src/check_virtsys_virtsysnetworkwindow.cpp	/^void Check_Virtsys_virtSysNetWorkWindow::check_virtsys_netWorkWidInit()$/;"	f	class:Check_Virtsys_virtSysNetWorkWindow
+check_virtsys_saveVirNetWorkData	../src/check_virtsys_virtsysdatainfo.cpp	/^check_virtsys_saveVirNetWorkData(unsigned int id, std::string virNetName,$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_setDataInfoIf	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_setDataInfoIf(Check_Virtsys_VirtSysDataInfo *virDataInfo)$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_setMousePoint	../src/check_virtsys_detailedwindow.cpp	/^check_virtsys_setMousePoint(QPoint &m_mousePoint)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+check_virtsys_setXml	../src/check_virtsys_detailedwindow.h	/^        void check_virtsys_setXml(QString xml){$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+check_virtsys_showAboutDialog	../src/check_virtsys_aboutdialog.cpp	/^void CHECK_VIRTSYS_ABOUTDIALOG::check_virtsys_showAboutDialog()$/;"	f	class:CHECK_VIRTSYS_ABOUTDIALOG
+check_virtsys_threadExit	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_threadExit()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_threadStart	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_threadStart()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_threadStop	../src/check_virtsys_thread.cpp	/^void CHECK_VIRTSYS_THREAD::check_virtsys_threadStop()$/;"	f	class:CHECK_VIRTSYS_THREAD
+check_virtsys_treeViewInit	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_::check_virtsys_treeViewInit()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+check_virtsys_updataDetailWid	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::check_virtsys_updataDetailWid(int row)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+check_virtsys_updataDomInfoTabWin	../src/check_virtsys_virtsysdomainwindow.cpp	/^void Check_Virtsys_VirtSysDomWindow::check_virtsys_updataDomInfoTabWin()$/;"	f	class:Check_Virtsys_VirtSysDomWindow
+check_virtsys_updataNetworkTabWid	../src/check_virtsys_virtsysnetworkwindow.cpp	/^void Check_Virtsys_virtSysNetWorkWindow::check_virtsys_updataNetworkTabWid()$/;"	f	class:Check_Virtsys_virtSysNetWorkWindow
+check_virtsys_updataTreeView	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_::check_virtsys_updataTreeView()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+check_virtsys_vailedTime	../src/check_virtsys_window.cpp	/^bool Check_Virtsys_Window::check_virtsys_vailedTime()$/;"	f	class:Check_Virtsys_Window
+check_virtsys_virDataInfo	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_virDataInfo(virtSysDataType & data_type)$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_virDomainInfo	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_virDomainInfo()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+check_virtsys_virNetWorkInfo	../src/check_virtsys_virtsysdatainfo.cpp	/^void Check_Virtsys_VirtSysDataInfo::check_virtsys_virNetWorkInfo()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+checkvirtsys_add_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::checkvirtsys_add_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow
+checkvirtsys_baseWinInit	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::checkvirtsys_baseWinInit()$/;"	f	class:check_virtsys_basewindow
+checkvirtsys_delete_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::checkvirtsys_delete_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow
+checkvirtsys_setFront_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::checkvirtsys_setFront_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow
+client_get_socid	../src/check_virtsts_genernal.h	/^    void client_get_socid(){$/;"	f	class:CHECK_VIRTSTS_GENERNAL
+conn	../src/virsysInfo.py	/^conn=libvirt.open("qemu:\/\/\/system")$/;"	v
+count	../src/check_virtsys_virtsysdatainfo.h	/^        size_t count;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+cpuTime	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned long long cpuTime; \/* the CPU time used in nanoseconds *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+data	../src/test.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon3
+dataDealThread	../src/check_virtsys_thread.h	/^    QThread * dataDealThread;$/;"	m	class:CHECK_VIRTSYS_THREAD
+dataType	../src/check_virtsys_thread.h	/^    virtSysDataType dataType;$/;"	m	class:CHECK_VIRTSYS_THREAD
+delete_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::delete_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow::baseWindow
+desc	../src/check_virtsys_virtsysdatainfo.h	/^        std::string desc;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+detailWidget	../src/check_virtsys_window.h	/^    CHECK_VIRTSYS_DETAILEDWINDOW * detailWidget;$/;"	m	class:Check_Virtsys_Window
+dialog	../src/check_virtsys_aboutdialog.h	/^    QDialog * dialog;$/;"	m	class:CHECK_VIRTSYS_ABOUTDIALOG
+dialog	../src/check_virtsys_detailedwindow.h	/^        QDialog * dialog;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+domWidget	../src/check_virtsys_window.h	/^    Check_Virtsys_VirtSysDomWindow * domWidget;$/;"	m	class:Check_Virtsys_Window
+domain	../src/virsysInfo.py	/^    domain= conn.fromstring(domain.XMLDesc())$/;"	v
+domain_map	../src/check_virtsys_thread.h	/^    std::multimap<unsigned int ,Check_Virtsys_Libvirt_API::_checkVirSysVirDomainInfo_ * > *domain_map;$/;"	m	class:CHECK_VIRTSYS_THREAD
+edgeCalcMove	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::edgeCalcMove()$/;"	f	class:check_virtsys_basewindow::baseWindow
+frontWid	../src/check_virtsys_basewindow.cpp	/^    QWidget * frontWid;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+genWidget	../src/check_virtsys_window.h	/^    CHECK_VIRTSTS_GENERNAL * genWidget;$/;"	m	class:Check_Virtsys_Window
+get_front_window	../src/check_virtsys_basewindow.cpp	/^QWidget * check_virtsys_basewindow::baseWindow::get_front_window()$/;"	f	class:check_virtsys_basewindow::baseWindow
+id	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned int id;           \/* the virsys id for domain  *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+id	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned int id;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+id	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned int id;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+iface	../src/virsysInfo.py	/^        iface=i.get('dev')$/;"	v
+ifaceinfo	../src/virsysInfo.py	/^        ifaceinfo =domain.interfaceStats(iface)$/;"	v
+ifaces	../src/virsysInfo.py	/^    ifaces =tree.findall('devices\/interface\/target')$/;"	v
+isSceneCPU	../src/check_virtsys_nrcpuusagewindow.h	/^    QGraphicsScene * isSceneCPU;$/;"	m	class:CHECK_VIRTSYS_NRCPUUSAGEWINDOW
+isThreadExit	../src/check_virtsys_thread.h	/^    bool isThreadExit;$/;"	m	class:CHECK_VIRTSYS_THREAD
+lastPos	../src/check_virtsys_basewindow.cpp	/^    QPoint lastPos;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+len	../src/test.h	/^typedef struct { void *data; GoInt len; GoInt cap; } GoSlice;$/;"	m	struct:__anon3
+libvirt	../src/virsysInfo.py	/^import libvirt$/;"	i
+listWid	../src/check_virtsys_detailedwindow.h	/^        QListWidget * listWid;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+m_MainWidget	../src/check_virtsys_window.h	/^    QWidget * m_MainWidget;$/;"	m	class:Check_Virtsys_Window
+m_Pressed	../src/check_virtsys_basewindow.cpp	/^    bool m_Pressed;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+m_baseWid	../src/check_virtsys_basewindow.cpp	/^    QWidget *m_baseWid;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+m_edgeCalc	../src/check_virtsys_basewindow.cpp	/^    bool m_edgeCalc;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+m_genernalWin	../src/check_virtsts_genernalwindow.h	/^    QTableWidget * m_genernalWin;$/;"	m	class:CHECK_VIRTSTS_GENERNALWINDOW
+m_hBoxLay	../src/check_virtsys_detailedwindow.h	/^        QHBoxLayout * m_hBoxLay;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+m_label	../src/check_virtsys_aboutdialog.h	/^    QLabel * m_label;$/;"	m	class:CHECK_VIRTSYS_ABOUTDIALOG
+m_label	../src/check_virtsys_detailedwindow.h	/^        QLabel *m_label;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+m_lisItem	../src/check_virtsys_detailedwindow.h	/^        QListWidgetItem * m_lisItem;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+m_listWidget	../src/check_virtsys_detailedwindow.h	/^        QListWidget * m_listWidget;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+m_listWidget	../src/check_virtsys_window.h	/^    QListWidget * m_listWidget;$/;"	m	class:Check_Virtsys_Window
+m_listWinItem	../src/check_virtsys_detailedwindow.h	/^        QListWidgetItem * m_listWinItem;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+m_listWinItem	../src/check_virtsys_window.h	/^    QListWidgetItem * m_listWinItem;$/;"	m	class:Check_Virtsys_Window
+m_ls	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_* CHECK_VIRTSYS_DETAILEDWINDOW::m_ls=nullptr;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW	file:
+m_ls	../src/check_virtsys_detailedwindow.h	/^    }static *m_ls;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW
+m_lswid	../src/check_virtsys_detailedwindow.h	/^    }* m_lswid;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW	typeref:class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+m_manager	../src/check_virtsys_manager.cpp	/^CHECK_VIRTSYS_MANAGER * CHECK_VIRTSYS_MANAGER::m_manager=nullptr;$/;"	m	class:CHECK_VIRTSYS_MANAGER	file:
+m_manager	../src/check_virtsys_manager.h	/^    static CHECK_VIRTSYS_MANAGER * m_manager;$/;"	m	class:CHECK_VIRTSYS_MANAGER
+m_mousePoint	../src/check_virtsys_detailedwindow.h	/^        QPoint m_mousePoint;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+m_netWorkTabWidget	../src/check_virtsys_virtsysnetworkwindow.h	/^    QTableWidget * m_netWorkTabWidget;$/;"	m	class:Check_Virtsys_virtSysNetWorkWindow
+m_osTypeStr	../src/check_virtsts_genernal.h	/^    QString m_osTypeStr;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_osTypelist	../src/check_virtsts_genernal.h	/^    QStringList m_osTypelist;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_socId	../src/check_virtsts_genernal.h	/^    QString m_socId;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_staWid	../src/check_virtsys_basewindow.cpp	/^    QStackedWidget *m_staWid;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+m_staWidget	../src/check_virtsys_window.h	/^    QStackedWidget *m_staWidget;$/;"	m	class:Check_Virtsys_Window
+m_tabItem	../src/check_virtsts_genernalwindow.h	/^    QTableWidgetItem * m_tabItem;$/;"	m	class:CHECK_VIRTSTS_GENERNALWINDOW
+m_tabSocId	../src/check_virtsts_genernal.h	/^    QLabel * m_tabSocId;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_tabSocState	../src/check_virtsts_genernal.h	/^    QLabel * m_tabSocState;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_tabVirType	../src/check_virtsts_genernal.h	/^    QLabel * m_tabVirType;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_threadStatus	../src/check_virtsys_thread.h	/^    bool m_threadStatus;$/;"	m	class:CHECK_VIRTSYS_THREAD
+m_time	../src/check_virtsys_window.h	/^    QTime  m_time;$/;"	m	class:Check_Virtsys_Window
+m_timerStatus	../src/check_virtsys_window.h	/^    bool m_timerStatus;$/;"	m	class:Check_Virtsys_Window
+m_treeWid	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_ * CHECK_VIRTSYS_DETAILEDWINDOW::m_treeWid=nullptr;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW	file:
+m_treeWid	../src/check_virtsys_detailedwindow.h	/^    } static *m_treeWid;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW
+m_vBoxLay	../src/check_virtsys_detailedwindow.h	/^    QHBoxLayout *m_vBoxLay;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW
+m_virTypeStr	../src/check_virtsts_genernal.h	/^    QString m_virTypeStr;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+m_virTypelist	../src/check_virtsts_genernal.h	/^    QStringList m_virTypelist;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+main	../src/main.cpp	/^int main(int argc, char *argv[])$/;"	f
+maxMem	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned long maxMem;       \/* the maximum memory in KBytes allowed *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+memory	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned long memory;       \/* the memory in KBytes used by the domain *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+mesc	../src/check_virtsys_window.h	/^    size_t mesc;$/;"	m	class:Check_Virtsys_Window
+model	../src/check_virtsys_detailedwindow.h	/^        QStandardItemModel * model;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+mouseDoubleClickEvent	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::mouseDoubleClickEvent(QMouseEvent *event)$/;"	f	class:check_virtsys_basewindow::baseWindow
+mouseDoubleClickEvent	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::mouseDoubleClickEvent(QMouseEvent *event)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+mouseMoveEvent	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:check_virtsys_basewindow::baseWindow
+mouseMoveEvent	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+mousePressEvent	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::mousePressEvent(QMouseEvent *event)$/;"	f	class:check_virtsys_basewindow::baseWindow
+mousePressEvent	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::mousePressEvent(QMouseEvent *event)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+mouseReleaseEvent	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::mouseReleaseEvent(QMouseEvent *event)$/;"	f	class:check_virtsys_basewindow::baseWindow
+mouseReleaseEvent	../src/check_virtsys_detailedwindow.cpp	/^void CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::mouseReleaseEvent(QMouseEvent *event)$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+mute	../src/check_virtsys_thread.h	/^    QMutex mute;$/;"	m	class:CHECK_VIRTSYS_THREAD
+n	../src/test.h	/^typedef struct { const char *p; ptrdiff_t n; } _GoString_;$/;"	m	struct:__anon1
+name	../src/check_virtsys_virtsysdatainfo.h	/^        std::string name;          \/* the virsys name  *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+name	../src/check_virtsys_virtsysdatainfo.h	/^        std::string name;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+netWorkWidget	../src/check_virtsys_window.h	/^    Check_Virtsys_virtSysNetWorkWindow * netWorkWidget;$/;"	m	class:Check_Virtsys_Window
+netWork_map	../src/check_virtsys_thread.h	/^    std::multimap<unsigned int ,Check_Virtsys_Libvirt_API::_checkVirSysVirNetWorkInfo_ * > *netWork_map;$/;"	m	class:CHECK_VIRTSYS_THREAD
+nrVirtCpu	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned short nrVirtCpu;   \/* the number of virtual CPUs for the domain *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+nrcpuUsageChart	../src/check_virtsys_nrcpuusagewindow.h	/^    QChart * nrcpuUsageChart;$/;"	m	class:CHECK_VIRTSYS_NRCPUUSAGEWINDOW
+nrcpuUsageChartView	../src/check_virtsys_nrcpuusagewindow.h	/^    QChartView * nrcpuUsageChartView;$/;"	m	class:CHECK_VIRTSYS_NRCPUUSAGEWINDOW
+os_type	../src/check_virtsys_virtsysdatainfo.h	/^        std::string os_type;       \/* the virsys type  PV\/HVM *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+os_type	../src/check_virtsys_virtsysdatainfo.h	/^        std::string os_type;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+override	../src/check_virtsys_basewindow.cpp	/^    void mouseDoubleClickEvent(QMouseEvent *event) override;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+override	../src/check_virtsys_basewindow.cpp	/^    void mouseMoveEvent(QMouseEvent *event) override;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+override	../src/check_virtsys_basewindow.cpp	/^    void mousePressEvent(QMouseEvent *event) override;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+override	../src/check_virtsys_basewindow.cpp	/^    void mouseReleaseEvent(QMouseEvent *event) override;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+p	../src/test.h	/^typedef struct { const char *p; ptrdiff_t n; } _GoString_;$/;"	m	struct:__anon1
+plEdit	../src/check_virtsys_detailedwindow.h	/^    QPlainTextEdit * plEdit;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW
+rx_bytes	../src/check_virtsys_virtsysdatainfo.h	/^        long long rx_bytes;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+rx_drop	../src/check_virtsys_virtsysdatainfo.h	/^        long long rx_drop;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+rx_errs	../src/check_virtsys_virtsysdatainfo.h	/^        long long rx_errs;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+rx_packets	../src/check_virtsys_virtsysdatainfo.h	/^        long long rx_packets;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+set_front_window	../src/check_virtsys_basewindow.cpp	/^void check_virtsys_basewindow::baseWindow::set_front_window(QWidget *wid)$/;"	f	class:check_virtsys_basewindow::baseWindow
+sortMethod	../src/check_virtsys_basewindow.h	/^    enum sortMethod{$/;"	g	namespace:BASEWINDOW
+state	../src/check_virtsys_virtsysdatainfo.h	/^        unsigned int state;        \/* the running state, one of virDomainState *\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+t	../src/test.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	m	struct:__anon2
+thread	../src/check_virtsts_genernal.h	/^    CHECK_VIRTSYS_THREAD * thread;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+thread	../src/check_virtsys_virtsysdomainwindow.h	/^     CHECK_VIRTSYS_THREAD * thread;$/;"	m	class:Check_Virtsys_VirtSysDomWindow
+thread	../src/check_virtsys_virtsysnetworkwindow.h	/^    CHECK_VIRTSYS_THREAD * thread;$/;"	m	class:Check_Virtsys_virtSysNetWorkWindow
+threadManager	../src/check_virtsys_manager.h	/^     CHECK_VIRTSYS_THREAD * threadManager;$/;"	m	class:CHECK_VIRTSYS_MANAGER
+timer	../src/check_virtsys_window.h	/^    QTimer timer;$/;"	m	class:Check_Virtsys_Window
+tx_bytes	../src/check_virtsys_virtsysdatainfo.h	/^        long long tx_bytes;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+tx_drop	../src/check_virtsys_virtsysdatainfo.h	/^        long long tx_drop;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+tx_errs	../src/check_virtsys_virtsysdatainfo.h	/^        long long tx_errs;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+tx_packets	../src/check_virtsys_virtsysdatainfo.h	/^        long long tx_packets;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+v	../src/test.h	/^typedef struct { void *t; void *v; } GoInterface;$/;"	m	struct:__anon2
+vbLayout	../src/check_virtsys_detailedwindow.h	/^        QHBoxLayout * vbLayout;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+virCount	../src/check_virtsys_virtsysdatainfo.h	/^        size_t virCount;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+virData	../src/check_virtsys_virtsysdatainfo.h	/^    _virData_ *virData=&virData_;$/;"	m	class:Check_Virtsys_VirtSysDataInfo
+virDataInfo	../src/check_virtsys_manager.h	/^     Check_Virtsys_VirtSysDataInfo * virDataInfo;$/;"	m	class:CHECK_VIRTSYS_MANAGER
+virDataInfo	../src/check_virtsys_thread.h	/^    Check_Virtsys_VirtSysDataInfo * virDataInfo;$/;"	m	class:CHECK_VIRTSYS_THREAD
+virData_	../src/check_virtsys_virtsysdatainfo.h	/^    }virData_={$/;"	m	class:Check_Virtsys_VirtSysDataInfo	typeref:struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+virManager	../src/check_virtsts_genernal.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:CHECK_VIRTSTS_GENERNAL
+virManager	../src/check_virtsts_genernalwindow.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:CHECK_VIRTSTS_GENERNALWINDOW
+virManager	../src/check_virtsys_aboutdialog.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:CHECK_VIRTSYS_ABOUTDIALOG
+virManager	../src/check_virtsys_detailedwindow.h	/^        CHECK_VIRTSYS_MANAGER *virManager;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+virManager	../src/check_virtsys_virtsysdomainwindow.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:Check_Virtsys_VirtSysDomWindow
+virManager	../src/check_virtsys_virtsysnetworkwindow.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:Check_Virtsys_virtSysNetWorkWindow
+virManager	../src/check_virtsys_window.h	/^    CHECK_VIRTSYS_MANAGER * virManager;$/;"	m	class:Check_Virtsys_Window
+virNetName	../src/check_virtsys_virtsysdatainfo.h	/^        std::list<std::string> virNetName;$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+vir_type	../src/check_virtsys_virtsysdatainfo.h	/^        std::string vir_type;      \/* the vri type KVM....*\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+virsysDomInfo_Map	../src/check_virtsys_virtsysdatainfo.h	/^    std::multimap<unsigned int ,Check_Virtsys_Libvirt_API::_checkVirSysVirDomainInfo_ * > virsysDomInfo_Map;$/;"	m	class:Check_Virtsys_VirtSysDataInfo
+virsysDomInfo_Map_Iter	../src/check_virtsys_virtsysdatainfo.h	/^        iterator virsysDomInfo_Map_Iter;$/;"	m	class:Check_Virtsys_VirtSysDataInfo
+virsysNetWorkInfo_Map	../src/check_virtsys_virtsysdatainfo.h	/^    std::multimap<unsigned int ,Check_Virtsys_Libvirt_API::_checkVirSysVirNetWorkInfo_ * > virsysNetWorkInfo_Map;$/;"	m	class:Check_Virtsys_VirtSysDataInfo
+virtSysDataType	../src/check_virtsys_virtsysdatainfo.h	/^}virtSysDataType;$/;"	t	typeref:enum:_VirtSysDataType_
+virt_type	../src/check_virtsys_virtsysdatainfo.h	/^        std::string virt_type;$/;"	m	struct:Check_Virtsys_VirtSysDataInfo::_VIRSYSDATA_
+windowPos	../src/check_virtsys_basewindow.cpp	/^    QPoint windowPos;$/;"	m	class:check_virtsys_basewindow::baseWindow	file:
+xml	../src/check_virtsys_virtsysdatainfo.h	/^        std::string xml;           \/* the virtsys desc xml*\/$/;"	m	struct:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+xmlInfo	../src/check_virtsys_detailedwindow.h	/^        QString xmlInfo;$/;"	m	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+~CHECK_VIRTSTS_GENERNALWINDOW	../src/check_virtsts_genernalwindow.cpp	/^CHECK_VIRTSTS_GENERNALWINDOW::~CHECK_VIRTSTS_GENERNALWINDOW()$/;"	f	class:CHECK_VIRTSTS_GENERNALWINDOW
+~CHECK_VIRTSYS	../src/check_virtsys.h	/^    virtual ~CHECK_VIRTSYS(){};$/;"	f	class:CHECK_VIRTSYS
+~CHECK_VIRTSYS_ABOUTDIALOG	../src/check_virtsys_aboutdialog.cpp	/^CHECK_VIRTSYS_ABOUTDIALOG::~CHECK_VIRTSYS_ABOUTDIALOG()$/;"	f	class:CHECK_VIRTSYS_ABOUTDIALOG
+~CHECK_VIRTSYS_DETAILEDWINDOW	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::~CHECK_VIRTSYS_DETAILEDWINDOW()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW
+~CHECK_VIRTSYS_MANAGER	../src/check_virtsys_manager.cpp	/^CHECK_VIRTSYS_MANAGER::~CHECK_VIRTSYS_MANAGER()$/;"	f	class:CHECK_VIRTSYS_MANAGER
+~CHECK_VIRTSYS_THREAD	../src/check_virtsys_thread.cpp	/^CHECK_VIRTSYS_THREAD::~CHECK_VIRTSYS_THREAD()$/;"	f	class:CHECK_VIRTSYS_THREAD
+~CHECK_VIRTSYS_VIRDOMAIN_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^~CHECK_VIRTSYS_VIRDOMAIN_INFO()$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRDOMAIN_INFO
+~CHECK_VIRTSYS_VIRNETWORK_INFO	../src/check_virtsys_virtsysdatainfo.cpp	/^CHECK_VIRTSYS_VIRNETWORK_INFO::~CHECK_VIRTSYS_VIRNETWORK_INFO()$/;"	f	class:Check_Virtsys_Libvirt_API::CHECK_VIRTSYS_VIRNETWORK_INFO
+~Check_Virtsys_VirtSysDataInfo	../src/check_virtsys_virtsysdatainfo.cpp	/^Check_Virtsys_VirtSysDataInfo::~Check_Virtsys_VirtSysDataInfo()$/;"	f	class:Check_Virtsys_VirtSysDataInfo
+~Check_Virtsys_VirtSysDomWindow	../src/check_virtsys_virtsysdomainwindow.cpp	/^Check_Virtsys_VirtSysDomWindow::~Check_Virtsys_VirtSysDomWindow()$/;"	f	class:Check_Virtsys_VirtSysDomWindow
+~Check_Virtsys_Window	../src/check_virtsys_window.cpp	/^Check_Virtsys_Window::~Check_Virtsys_Window()$/;"	f	class:Check_Virtsys_Window
+~Check_Virtsys_virtSysNetWorkWindow	../src/check_virtsys_virtsysnetworkwindow.cpp	/^Check_Virtsys_virtSysNetWorkWindow::~Check_Virtsys_virtSysNetWorkWindow()$/;"	f	class:Check_Virtsys_virtSysNetWorkWindow
+~MainWindow	../src/mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~_CG_	../src/check_virtsys_manager.h	/^        ~_CG_(){$/;"	f	class:CHECK_VIRTSYS_MANAGER::_CG_
+~_listStyle_	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_::~_listStyle_()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listStyle_
+~_listWid_	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_::~_listWid_()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_listWid_
+~_treeWid_	../src/check_virtsys_detailedwindow.cpp	/^CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_::~_treeWid_()$/;"	f	class:CHECK_VIRTSYS_DETAILEDWINDOW::_treeWid_
+~baseWindow	../src/check_virtsys_basewindow.cpp	/^check_virtsys_basewindow::baseWindow::~baseWindow()$/;"	f	class:check_virtsys_basewindow::baseWindow
+~check_virtsys_basewindow	../src/check_virtsys_basewindow.cpp	/^check_virtsys_basewindow::~check_virtsys_basewindow()$/;"	f	class:check_virtsys_basewindow

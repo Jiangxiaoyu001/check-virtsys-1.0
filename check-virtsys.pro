@@ -19,7 +19,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     src/check_virtsts_genernalwindow.cpp \
     src/check_virtsys_aboutdialog.cpp \
-    src/check_virtsys_basewindow.cpp \
     src/check_virtsys_detailedwindow.cpp \
     src/check_virtsys_manager.cpp \
     src/check_virtsys_nrcpuusagewindow.cpp \
@@ -36,7 +35,6 @@ HEADERS += \
     src/check_virtsts_genernal.h \
     src/check_virtsts_genernalwindow.h \
     src/check_virtsys_aboutdialog.h \
-    src/check_virtsys_basewindow.h\
     src/check_virtsys_detailedwindow.h \
     src/check_virtsys_manager.h \
     src/check_virtsys_nrcpuusagewindow.h \
