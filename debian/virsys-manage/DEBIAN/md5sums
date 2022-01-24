@@ -1,0 +1,6 @@
+1300f644d248d12d58100db0b1a59d8c  usr/bin/check-virtsys
+0574a7ba59ac754b6e9644e5af9eb65b  usr/share/applications/check-virtsys.desktop
+e76d90fdee9419e5ee3e001d011bf48d  usr/share/doc/virsys-manage/README.Debian
+b27d3eedfed4c5ec787e7ab879be81cb  usr/share/doc/virsys-manage/changelog.Debian.gz
+1b0d76aa6aa9b2abb575b85a3917501a  usr/share/doc/virsys-manage/copyright
+2f2d9c3187d13c0339446df15ce7c5d8  usr/share/qss/QListWidget.qss

@@ -1,0 +1,201 @@
+{
+	"BUILD_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/SRC_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0",
+	"HEADERS" : 
+	[
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsts_genernal.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsts_genernal.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsts_genernalwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsts_genernalwindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_aboutdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_aboutdialog.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_basewindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_basewindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_detailedwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_detailedwindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_manager.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_manager.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_nrcpuusagewindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_nrcpuusagewindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_thread.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_thread.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysdatainfo.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_virtsysdatainfo.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysdomainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_virtsysdomainwindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysnetworkwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_virtsysnetworkwindow.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_window.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_window.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_xml.h",
+			"MU",
+			"EWIEGA46WW/moc_check_virtsys_xml.cpp"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/SRC_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/SRC_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/SRC_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/CMakeFiles/SRC_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/jiangxiaoyu/Qt5.9.9/5.9.9/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/jiangxiaoyu/Qt5.9.9/5.9.9/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/CMakeFiles/SRC_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsts_genernal.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsts_genernalwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_aboutdialog.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_basewindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_detailedwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_manager.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_nrcpuusagewindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_thread.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysdatainfo.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysdomainwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_virtsysnetworkwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_window.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/check_virtsys_xml.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/main.cpp",
+			"MU"
+		],
+		[
+			"/home/jiangxiaoyu/rpmbuild/SOURCES/check-virtsys-1.0/src/mainwindow.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmywidgets.a  CMakeFiles/mywidgets.dir/mywidgets_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libmywidgets.a

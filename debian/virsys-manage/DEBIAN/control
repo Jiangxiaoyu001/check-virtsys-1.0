@@ -1,0 +1,11 @@
+Package: virsys-manage
+Source: check-virtsys
+Version: 1.0-10
+Architecture: amd64
+Maintainer: jiangxiaoyu <jiangxiaoyu@work>
+Installed-Size: 282
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libvirt0 (>= 0.9.13~rc1), qt5-dev, libQt5Charts.so, libvirt-dev, gcc-c++
+Section: admin
+Priority: optional
+Homepage: https://github.com/Jiangxiaoyu001/check-virtsys-1.0
+Description: free tool to virtual system manage ,it's in testing develop

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwidgets.a  CMakeFiles/widgets.dir/widgets_autogen/mocs_compilation.cpp.o CMakeFiles/widgets.dir/framelesswidget.cpp.o
+/usr/bin/ranlib libwidgets.a

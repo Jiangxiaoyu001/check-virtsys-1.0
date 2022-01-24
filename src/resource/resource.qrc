@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>QListWidget.qss</file>
-        <file>listwid.qss</file>
-    </qresource>
-</RCC>

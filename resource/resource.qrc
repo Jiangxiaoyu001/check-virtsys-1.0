@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>QListWidget.qss</file>
+        <file>listwid.qss</file>
+        <file>frameLessWidget.qss</file>
+        <file>frameLessWidget_4k.qss</file>
+        <file>../icons/128x128/check-virtsys.png</file>
+        <file>../icons/16x16/check-virtsys.png</file>
+        <file>../icons/32x32/check-virtsys.png</file>
+        <file>../icons/48x48/check-virtsys.png</file>
+        <file>../icons/64x64/check-virtsys.png</file>
+        
+		<!-- base btn -->
+
+		<file>../icons/64x64/close.png</file>
+        <file>../icons/64x64/max.png</file>
+        <file>../icons/64x64/min.png</file>
+	
+        <file alias="maxBtn3_48x48.png">../icons/48x48/MaxBtn-3.png</file>
+        <file alias="minBtn_48x48.png">../icons/48x48/MinBtn.png</file>
+        <file alias="closeBtn2_48x48.png">../icons/48x48/closeBtn-2.png</file>
+        <file alias="closeBtn_48x48.png">../icons/48x48/closeBtn.png</file>
+        <file alias="virsGeneral_128x128.png">../icons/128x128/virtSysGeneral.png</file>
+        <file alias="virsGeneral_64x64.png">../icons/64x64/virsysGeneral.png</file>
+        <file alias="virsys.ico">../icons/icos/virsys.ico</file>
+    </qresource>
+</RCC>
