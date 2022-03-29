@@ -1,0 +1,81 @@
+QPushButton#MinBtn
+{
+    border:0px;
+    width:48;
+    height:48;
+    background-color:rgb(100,100,105);
+    background-image:url(:/resources/minBtn_48x48.png);
+}
+
+QPushButton#MinBtn:hover
+{
+    border:0px;
+    background-color:rgb(54,54,54);
+}
+
+QPushButton#MinBtn:pressed
+{
+
+}
+
+
+QPushButton#MaxBtn
+{
+    border:0px;
+    width:48;
+    height:48;
+    background-color:rgb(100,100,105);
+    border-image:url(:/resources/maxBtn3_48x48.png);
+}
+
+QPushButton#MaxBtn:hover
+{
+    border:0px;
+    background-color:rgb(54,54,54);
+}
+
+QPushButton#MaxBtn:pressed
+{
+    border:0px;
+    background-color:rgb(54,54,54);
+}
+
+
+QPushButton#CloseBtn
+{
+    border:0px;
+    width:48;
+    height:48;
+    background-color:rgb(100,100,105);
+    background-image:url(:/resources/closeBtn2_48x48.png);
+}
+
+QPushButton#CloseBtn:hover
+{
+    background-color:rgb(255,0,0);
+}
+
+QPushButton#CloseBtn:pressed
+{
+    border:3px outset;
+}
+
+
+
+QPushButton#generalBtn
+{
+    border:0px;
+    width:64;
+    height:64;
+    border-image:url(:/resources/virsGeneral_128x128.png);
+}
+
+QPushButton#generalBtn:hover
+{
+    background-color:rgb(176,190,222);
+}
+
+QPushButton#generalBtn:checked
+{
+    background-color:rgb(211,211,211);
+}

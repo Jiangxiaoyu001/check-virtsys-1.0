@@ -17,38 +17,55 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    src/check_virtsts_genernalwindow.cpp \
-    src/check_virtsys_aboutdialog.cpp \
-    src/check_virtsys_detailedwindow.cpp \
-    src/check_virtsys_manager.cpp \
-    src/check_virtsys_nrcpuusagewindow.cpp \
-    src/check_virtsys_thread.cpp \
-    src/check_virtsys_virtsysdatainfo.cpp \
-    src/check_virtsys_virtsysdomainwindow.cpp \
-    src/check_virtsys_virtsysnetworkwindow.cpp \
-    src/check_virtsys_window.cpp \
-    src/check_virtsys_xml.cpp \
-    src/main.cpp \
-    src/mainwindow.cpp \
-    src/check_virtsys.cpp
+    src/checkVirsys/check_virtsts_genernal.cpp \
+    src/checkVirsys/check_virtsts_genernalwindow.cpp \
+    src/checkVirsys/check_virtsys.cpp \
+    src/checkVirsys/check_virtsys_aboutdialog.cpp \
+    src/checkVirsys/check_virtsys_basewindow.cpp \
+    src/checkVirsys/check_virtsys_detailedwindow.cpp \
+    src/checkVirsys/check_virtsys_manager.cpp \
+    src/checkVirsys/check_virtsys_nrcpuusagewindow.cpp \
+    src/checkVirsys/check_virtsys_thread.cpp \
+    src/checkVirsys/check_virtsys_virtsysdatainfo.cpp \
+    src/checkVirsys/check_virtsys_virtsysdomainwindow.cpp \
+    src/checkVirsys/check_virtsys_virtsysnetworkwindow.cpp \
+    src/checkVirsys/check_virtsys_window.cpp \
+    src/checkVirsys/check_virtsys_xml.cpp \
+    src/checkVirsys/mainwindow.cpp \
+    src/virCloudManage/main.cpp \
+    src/widgets/PopupWidget.cpp \
+    src/widgets/ScrollBar.cpp \
+    src/widgets/Splitter.cpp \
+    src/widgets/framelesswidget.cpp
+
 HEADERS += \
+    include/checkVirsys/check_virtsts_genernal.h \
+    include/checkVirsys/check_virtsts_genernalwindow.h \
+    include/checkVirsys/check_virtsys.h \
+    include/checkVirsys/check_virtsys_aboutdialog.h \
+    include/checkVirsys/check_virtsys_basewindow.h \
+    include/checkVirsys/check_virtsys_detailedwindow.h \
+    include/checkVirsys/check_virtsys_manager.h \
+    include/checkVirsys/check_virtsys_nrcpuusagewindow.h \
+    include/checkVirsys/check_virtsys_thread.h \
+    include/checkVirsys/check_virtsys_virtsysdatainfo.h \
+    include/checkVirsys/check_virtsys_virtsysdomainwindow.h \
+    include/checkVirsys/check_virtsys_virtsysnetworkwindow.h \
+    include/checkVirsys/check_virtsys_window.h \
+    include/checkVirsys/check_virtsys_xml.h \
+    include/checkVirsys/mainwindow.h \
+    include/virCloudManage/mainwindow.h \
+    include/widgets/framelesswidget.h \
+    src/SRC_autogen/moc_predefs.h \
     src/check_virtsts_genernal.h \
-    src/check_virtsts_genernalwindow.h \
-    src/check_virtsys_aboutdialog.h \
-    src/check_virtsys_detailedwindow.h \
-    src/check_virtsys_manager.h \
-    src/check_virtsys_nrcpuusagewindow.h \
-    src/check_virtsys_thread.h \
-    src/check_virtsys_virtsysdatainfo.h \
-    src/check_virtsys_virtsysdomainwindow.h \
-    src/check_virtsys_virtsysnetworkwindow.h \
-    src/check_virtsys_window.h \
-    src/check_virtsys_xml.h \
     src/mainwindow.h \
-    src/check_virtsys.h \
-    src/test.h
+    src/test.h \
+    src/widgets/PopupWidget.h \
+    src/widgets/ScrollBar.h \
+    src/widgets/Splitter.h
+
 FORMS += \
-    src/mainwindow.ui
+    src/checkVirsys/mainwindow.ui
 
 # created an app for Makefile
 TEMPLATE= app
@@ -63,7 +80,7 @@ unix:!android: {
     target.path = /usr/bin
     INSTALLS += target
     resource.path= /usr/share/qss
-    resource.files = src/resource/QListWidget.qss
+    resource.files =resource/QListWidget.qss
     !isEmpty(resource.path): {
         INSTALLS +=resource
     }
@@ -72,16 +89,15 @@ unix:!android: {
     INSTALLS +=desktop
 }
 
-
+RC_FILE += \
+    resource/ico.rc
 RESOURCES += \
-    src/resource/resource.qrc
+    #resource/resource.qrc \
 
 unix:!macx: LIBS += -lvirt -ldl
 
-
+INCLUDEPATH += \
+    include
 
 DISTFILES += \
-    src/dealxml.py \
-    src/resource/listwid \
-    src/virsysInfo.py \
-    src/xml.go
+

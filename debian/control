@@ -1,0 +1,12 @@
+Architecture: amd64
+Depends: libc6 (>= 2.3.1-6),
+				libvirt-dev (>= 2.3.1)
+Description: free tool to virtual system manage,still in developing
+Maintainer: jiangxiaoyu
+Package: vircloud-manage
+Priority: Optional
+Section: admin
+Source: vircloud-manage
+Version: 1.0.10
+Installed-Size: 8379
+

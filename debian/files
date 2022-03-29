@@ -1,0 +1,3 @@
+check-virtsys_1.0-10_amd64.buildinfo admin optional
+virsys-manage-dbgsym_1.0-10_amd64.ddeb debug optional automatic=yes
+virsys-manage_1.0-10_amd64.deb admin optional

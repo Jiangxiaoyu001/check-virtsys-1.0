@@ -1,0 +1,13 @@
+Package: virsys-manage-dbgsym
+Package-Type: ddeb
+Source: check-virtsys
+Version: 1.0-10
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: jiangxiaoyu <jiangxiaoyu@work>
+Installed-Size: 2056
+Depends: virsys-manage (= 1.0-10)
+Section: debug
+Priority: optional
+Description: debug symbols for virsys-manage
+Build-Ids: 1d4f0d718c8a3d1fcc54c00573a779885c47c3eb
