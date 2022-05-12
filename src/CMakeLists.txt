@@ -52,6 +52,9 @@ ADD_SUBDIRECTORY(3rd)
 ADD_SUBDIRECTORY(widgets)
 ADD_SUBDIRECTORY(checkVirsys)
 ADD_SUBDIRECTORY(virCloudManage)
+ADD_SUBDIRECTORY(protocols)
+ADD_SUBDIRECTORY(RemoteConnect)
+
 
 #link share lib to use
 #target_link_libraries(SRCLib checkVirSysLib 3rdLib widgetsLib)
