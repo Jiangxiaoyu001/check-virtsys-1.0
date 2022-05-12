@@ -12,7 +12,7 @@ SET(CMAKE_BUILD_TYPE Release)
 
 SET(MAJOR_VERSION 1)
 SET(MINOR_VERSION 0)
-SET(PATCH_VERSION 10)
+SET(PATCH_VERSION 11)
 SET(CPACK_GENERATOR "DEB")
 
 ##############设置debian/control文件中的内容###############

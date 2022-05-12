@@ -34,7 +34,7 @@ aux_source_directory(. DIR_SRCS_WIDGETS)
 #create share library can be used by others
 add_library(widgetsLib SHARED ${HEADER_FILE} ${DIR_SRCS_WIDGETS})
 
-#add header files directory for target 
+#add header files directory and lib  for target 
 target_include_directories(widgetsLib PUBLIC ${PROJECT_SOURCE_DIR}/include)
 
 target_link_libraries(widgetsLib Qt5::Widgets Qt5::Core)

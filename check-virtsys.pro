@@ -17,6 +17,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/RemoteConnect/main.cpp \
+    src/RemoteConnect/remote-connect-mainWindow.cpp \
+    src/RemoteConnect/remote-connect-vnc.cpp \
+    src/RemoteConnect/rfbclient-manage.cpp \
     src/checkVirsys/check_virtsts_genernal.cpp \
     src/checkVirsys/check_virtsts_genernalwindow.cpp \
     src/checkVirsys/check_virtsys.cpp \
@@ -56,6 +60,9 @@ HEADERS += \
     include/checkVirsys/mainwindow.h \
     include/virCloudManage/mainwindow.h \
     include/widgets/framelesswidget.h \
+    src/RemoteConnect/remote-connect-mainWindow.h \
+    src/RemoteConnect/remote-connect-vnc.h \
+    src/RemoteConnect/rfbproto.h \
     src/SRC_autogen/moc_predefs.h \
     src/check_virtsts_genernal.h \
     src/mainwindow.h \
@@ -99,5 +106,6 @@ unix:!macx: LIBS += -lvirt -ldl
 INCLUDEPATH += \
     include
 
-DISTFILES += \
+DISTFILES += \ \
+    src/RemoteConnect/CMakeLists.txt
 
