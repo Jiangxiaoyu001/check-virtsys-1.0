@@ -7,9 +7,10 @@
 int main(int argc,char **argv)
 {
 	QApplication a(argc,argv);
-	/* start gui  */
+	// start gui  /
 	//remoteConnectMainWindow w;
 	//w.show();
 	remoteConnectVnc remoteCon;
 	a.exec();
 }
+

@@ -45,6 +45,8 @@ aux_source_directory(. DIR_SRCS_RemoteConnect)
 #create share library can be used by others
 #add_library(remoteConnectCtrLib SHARED ${DIR_SRCS})
 
+
+include_directories(${PROJECT_SOURCE_DIR}/../../include)
 # Tell CMake to create the virtsysManage executable
 add_executable(remoteConnectCtr ${TCP_SOURCE_FILES} ${DIR_SRCS_RemoteConnect})
 
@@ -55,8 +57,7 @@ add_executable(remoteConnectCtr ${TCP_SOURCE_FILES} ${DIR_SRCS_RemoteConnect})
 
 
 #add header files directory for target 
-#target_include_directories(widgetsLib PUBLIC ${PROJECT_SOURCE_DIR}/include)
-
+target_include_directories(remoteConnectCtr PRIVATE ${PROJECT_SOURCE_DIR}/include)
 target_link_libraries(remoteConnectCtr pthread)
 target_link_libraries(remoteConnectCtr Qt5::Widgets Qt5::Core)
 

@@ -48,16 +48,19 @@ void remoteConnectVnc::setServerIp(std::string ip)
 std::string remoteConnectVnc::getHostName()
 {
 	//return hostPri->serverName;
+	return nullptr;
 }
 
 std::string remoteConnectVnc::getServerIp()
 {
 	//return hostPri->serverIp;
+	return nullptr;
 }
 
 std::string remoteConnectVnc::getLocalIp()
 {
 	//return hostPri->serverIp;
+	return nullptr;
 }
 
 
@@ -65,6 +68,7 @@ std::string remoteConnectVnc::getLocalIp()
 unsigned int remoteConnectVnc::getServerPort()
 {
 	//return hostPri->serverPort;
+	return 0;
 }
 
 
@@ -118,9 +122,9 @@ int remoteConnectVnc::connectServer()
 	return tcpConnect();
 }
 
-
+/*
 int main(int argc, char *argv[])
 {
 	
 }
-
+*/
